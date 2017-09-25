@@ -33,24 +33,17 @@ a {
 }
 
 h1 {
-	font-family: verdana;
 	font-weight: lighter;
 	text-align: center;
 	color: #8c8c8c;
 }
 
 li {
-	font-family: verdana;
 	font-weight: lighter;
 }
 
 p {
-	font-family: verdana;
 	font-weight: lighter;
-}
-
-div.images {
-	text-align: center;
 }
 
 img {
