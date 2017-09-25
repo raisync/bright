@@ -10,8 +10,8 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
+		<nav class="navbar">
+		  <div class="nav-fluid">
 			<ul class="">
 				<li>
 					<a class="navbar-brand" href="#">
@@ -28,7 +28,7 @@
 		</nav>
 	</header>
 
-	<div class="container col-lg-12">
+	<div class="container justify-content-around">
 		<h1>
 			Welcome! This is Bright, a very clean Wordpress psd file theme<br>
 			That makes it easy to showcase your work
@@ -36,7 +36,7 @@
 
 		<div col-lg-12>
 			<ul>
-				<li><a href="#">All</a></li> /
+				<li class="active"><a href="#">All</a></li> /
 				<li><a href="#">Painting</a></li> /
 				<li><a href="#">Traditional</a></li> /
 				<li><a href="#">Vector</a></li> /
@@ -106,32 +106,33 @@
 				<img src="src/box.png">
 			</div>
 		</div>
-	</div>
-
-	<div class="pagination">
-		<button type="button" class="btn btn-default btn-sm" href="#">&laquo;</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">&lsaquo;</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">1</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">2</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">3</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">4</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">5</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">6</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">7</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">8</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">9</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">10</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">11</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">&rsaquo;</button> 
-		<button type="button" class="btn btn-default btn-sm" href="#">&raquo;</button> 
-	</div>
 
 	<div class="row">
+		<div class="pagination">
+			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&laquo;</button> 
+			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&lsaquo;</button> 
+			<button class="btn btn-default btn-xs" href="#" style="color: red;">1</button> 
+			<button class="btn btn-default btn-xs" href="#">2</button> 
+			<button class="btn btn-default btn-xs" href="#">3</button> 
+			<button class="btn btn-default btn-xs" href="#">4</button> 
+			<button class="btn btn-default btn-xs" href="#">5</button> 
+			<button class="btn btn-default btn-xs" href="#">6</button> 
+			<button class="btn btn-default btn-xs" href="#">7</button> 
+			<button class="btn btn-default btn-xs" href="#">8</button> 
+			<button class="btn btn-default btn-xs" href="#">9</button> 
+			<button class="btn btn-default btn-xs" href="#">10</button> 
+			<button class="btn btn-default btn-xs" href="#">11</button> 
+			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&rsaquo;</button> 
+			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&raquo;</button> 
+		</div>
+	</div>
+
+	<div class="row justify-content-around">
 		<div class="col-sm-4">
 			<p class="feat">Find Something</p>
 			<p>Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpata, convallis ac, laoreer enim.</p>
-			<input type="text" name="search" placeholder="Looking for something?">
-			<button class="btn btn-default btn-sm">Go</button>
+			<input type="text" name="search" placeholder="Looking for something?" style="color: red; background-color: #d3d3d3">
+			<button class="btn btn-default btn-sm" style="color: red; background-color: #d3d3d3">Go</button>
 		</div>
 		<div class="col-sm-4">
 			<p class="feat">Information</p>
@@ -141,8 +142,8 @@
 		</div>
 		<div class="col-sm-4">
 			<p class="feat">Search by</p>
-			<div class="row">
-				<div class="col-sm-2">
+			<div class="row justify-content-around">
+				<div class="col-2">
 					<ul>
 						<li>Maecenas (2)</li>
 						<li>Curabitur et ligula (12)</li>
@@ -156,7 +157,7 @@
 						<li>Vestibulum (23)</li>
 					</ul>
 				</div>
-				<div class="col-sm-2">
+				<div class="col-2">
 					<ul>
 						<li>Maecenas (2)</li>
 						<li>Curabitur et ligula (12)</li>
@@ -169,6 +170,8 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
 	</div>
 
 	<footer>
