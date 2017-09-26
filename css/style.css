@@ -152,3 +152,19 @@ p.feat {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.wrap {
+  width: 90%;
+  margin: 0;
+}
+.left_col {
+  float: left;
+}
+.right_col {
+  float: right;
+}
+
+.dotline u {
+  border-bottom: 1px dotted #000;
+  text-decoration: none; 
+}
