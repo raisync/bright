@@ -168,3 +168,12 @@ p.feat {
   border-bottom: 1px dotted #000;
   text-decoration: none; 
 }
+
+.designer {
+  padding-bottom: 10%;
+}
+
+footer {
+  margin-right: 10%;
+  margin-left: 10%;
+}
