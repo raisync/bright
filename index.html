@@ -15,16 +15,16 @@
 			<ul>
 				<li>
 					<a class="logo" href="#">
-						<img src="src/Badge.png" alt="Logo" class="d-inline-block align-top">
+						<img src="src/logo.png" alt="Logo" class="d-inline-block align-top">
 					</a>
 				</li>
-				<li class="active"><a href="#">Home</a></li>
+				<li class="active-page"><a href="#">Home</a></li>
 				<li><a href="#">Portfolio</a></li>
 				<li><a href="#">Support</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
-			<div class="right_col" style="margin-right: 10%; padding-left: 15%">
+			<div class="right_col social">
 				<img src="src/facebook.png">
 				<img src="src/twitter.png">
 				<img src="src/dribbble.png">
@@ -37,14 +37,14 @@
 	</header>
 
 	<div class="container justify-content-around">
-		<h1 style="padding-top: 50px; padding-bottom: 50px;">
-			Welcome! This is Bright, a very clean Wordpress psd file theme<br>
+		<h1>
+			Welcome! This is <span class="red">Bright</span>, a very clean Wordpress psd file theme<br>
 			That makes it easy to showcase your work
 		</h1>
 
-		<div style="text-align: center; text-decoration: none;">
+		<div class="sorter">
 			<ul>
-				<li class="active"><a href="#">All</a></li> /
+				<li class="active-sort"><a href="#">All</a></li> /
 				<li><a href="#">Painting</a></li> /
 				<li><a href="#">Traditional</a></li> /
 				<li><a href="#">Vector</a></li> /
@@ -139,11 +139,11 @@
 			</div>
 		</div>
 
-	<div class="row" style="text-align: center; padding-top: 50px; padding-bottom: 50px;">
+	<div class="row pages">
 		<div class="pagination">
-			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&laquo;</button> 
-			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&lsaquo;</button> 
-			<button class="btn btn-default btn-xs" href="#" style="color: red;">1</button> 
+			<button class="btn btn-default btn-xs pagenav" href="#">&laquo;</button> 
+			<button class="btn btn-default btn-xs pagenav" href="#">&lsaquo;</button> 
+			<button class="btn btn-default btn-xs active-sort" href="#">1</button> 
 			<button class="btn btn-default btn-xs" href="#">2</button> 
 			<button class="btn btn-default btn-xs" href="#">3</button> 
 			<button class="btn btn-default btn-xs" href="#">4</button> 
@@ -154,8 +154,8 @@
 			<button class="btn btn-default btn-xs" href="#">9</button> 
 			<button class="btn btn-default btn-xs" href="#">10</button> 
 			<button class="btn btn-default btn-xs" href="#">11</button> 
-			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&rsaquo;</button> 
-			<button class="btn btn-default btn-xs" href="#" style="background-color: #d3d3d3">&raquo;</button> 
+			<button class="btn btn-default btn-xs pagenav" href="#">&rsaquo;</button> 
+			<button class="btn btn-default btn-xs pagenav" href="#">&raquo;</button> 
 		</div>
 	</div>
 
@@ -164,7 +164,7 @@
 			<p class="feat">Find Something</p>
 			<p>Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpata, convallis ac, laoreer enim.</p>
 			<input type="text" name="search" placeholder="Looking for something?" style="color: red; background-color: #d3d3d3">
-			<button class="btn btn-default btn-xs" style="color: red; background-color: #d3d3d3">Go</button>
+			<button class="btn btn-default btn-xs btngo">Go</button>
 		</div>
 		<div class="col-sm-4">
 			<p class="feat">Information</p>
@@ -205,7 +205,7 @@
 	<footer>
 		<hr>
 		<div class="designer">
-			<p>Design by Webvilla.pl 2012</p>
+			<small>Design by Webvilla.pl 2012</small>
 		</div>
 	</footer>
 

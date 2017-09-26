@@ -35,13 +35,31 @@ body {
 }
 
 li a {
-    color: black;
+  color: black;
 	text-decoration: none;
 	color: #000;
 }
 
-.active li a {
-	color: red;
+.active-sort {
+  color: red !important;
+}
+
+.active-sort a {
+	color: red !important;
+}
+
+li.active-page a {
+  border-bottom: 1px solid red !important;
+}
+
+li a:hover {
+  color: red !important;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red !important;
+  text-decoration: none;
 }
 
 h1 {
@@ -100,7 +118,7 @@ p.feat {
 }
 
 .navbar {
-  margin-top: 30px;
+  margin-top: 50px;
   height: 70px;
   width: 100%;
   text-align:center;
@@ -113,11 +131,11 @@ p.feat {
   height: 70px;
 }
 
-.navbar img{
+.navbar img {
   float:left;
 }
 
-.navbar li a {
+.navbar li {
   color: black;
   font-size: 16px;
   text-decoration: none;
@@ -125,15 +143,13 @@ p.feat {
   padding: 5px 15px;
 }
 
+.navbar li a {
+  padding-bottom: 5px;
+}
+
 .navbar li a img {
   padding: 0px 15px;
   margin-top: -30px;
-}
-
-.social {
-  text-decoration: none;
-  line-height: 100px;
-  padding: 105px 15px;
 }
 
 .box {
@@ -191,4 +207,38 @@ p.feat {
 footer {
   margin-right: 10%;
   margin-left: 10%;
+}
+
+hr {
+  border-top: 1px solid gray !important;
+}
+
+.container h1 {
+  padding-top: 50px; padding-bottom: 50px !important;
+}
+
+.red {
+  color: red;
+}
+
+.social {
+  margin-right: 10%; padding-left: 15%
+}
+
+.sorter {
+  text-align: center;
+  text-decoration: none;
+}
+
+.pages {
+  text-align: center; padding-top: 50px; padding-bottom: 50px;
+}
+
+.btngo {
+  color: red !important;
+  background-color: #d3d3d3 !important;
+}
+
+.pagenav {
+  background-color: #d3d3d3 !important;
 }
