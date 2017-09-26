@@ -73,7 +73,7 @@ p.feat {
     text-align: center;
     padding: 15px;
     box-shadow: 0px 0px 10px -5px #000000;
-    width: 218px;
+    width: 90%;
 }
 
 ::-webkit-input-placeholder { /* Chrome */
